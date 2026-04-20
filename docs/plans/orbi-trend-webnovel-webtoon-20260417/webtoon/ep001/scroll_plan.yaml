@@ -1,0 +1,68 @@
+episode: ep001
+source_title: 반수생의 하방 계약 1화
+adaptation_mode: vertical_scroll_webtoon
+scene_id: ep001_hidden_contract
+core_hook: 들키면 끝나는 하방 계약서
+blocks:
+  - block_id: b01
+    purpose: opening
+    emotion: 압박
+    visual: 책상 위 가채점표 클로즈업, 지구과학 39에 펜 자국 세 번
+    dialogue:
+      - caption: "국어 92. 수학 84. 영어 1. 생명 47. 지구 39."
+    spacing: tight
+  - block_id: b02
+    purpose: pressure
+    emotion: 질식
+    visual: 어머니가 뒤에 서 있고 주인공은 의자에 얼어붙어 있음
+    dialogue:
+      - mother: "국어가 살아났네. 이러면 다시 해볼 만하잖아."
+      - caption: "그 말의 뜻은 늘 같았다. 부울경 지역인재 의대."
+    spacing: tight
+  - block_id: b03
+    purpose: reveal_setup
+    emotion: 비밀
+    visual: 노트북 화면에 계약학과 전형 정리표, 파일명은 영어 오답노트 최종.xlsx
+    dialogue:
+      - caption: "집에서는 아무도 그 파일을 열어보지 않았다."
+    spacing: medium
+  - block_id: b04
+    purpose: external_mask
+    emotion: 위선
+    visual: 오르비 글 세 개가 열린 브라우저와 메신저 알림
+    dialogue:
+      - friend: "근데 넌 어차피 메디컬 라인 아니냐 ㅋㅋ"
+      - caption: "남들이 보는 나는 아직도 위로 향하는 사람이었다."
+    spacing: medium
+  - block_id: b05
+    purpose: pre_cliff
+    emotion: 공포
+    visual: 최근 문서에 '하방전략_2안.pdf'가 튀어나온 화면, 손이 떨리는 마우스
+    dialogue:
+      - caption: "심장이 철렁 내려앉았다."
+    spacing: tall_drop
+  - block_id: b06
+    purpose: reveal
+    emotion: 정지
+    visual: 방문이 열리고 어머니 시선이 모니터로 꽂힘
+    dialogue:
+      - mother: "이게 뭐야?"
+    spacing: tall_drop
+  - block_id: b07
+    purpose: emotional_turn
+    emotion: 안도와 파멸
+    visual: 화면 메모칸의 문장 강조
+    dialogue:
+      - text_focus: "의대 실패하면 여기라도 살아남는다."
+      - caption: "이제 끝났다는 안도감이 먼저 왔다."
+    spacing: tall_drop
+  - block_id: b08
+    purpose: cliff
+    emotion: 붕괴
+    visual: 담임 메시지와 어머니의 차가운 표정이 한 화면에 겹침
+    dialogue:
+      - teacher: "부산대 의대 기준으로 가져와."
+      - mother: "너는 나한테 의대 본다고 해놓고, 학교에는 또 다르게 말했니?"
+      - caption: "나는 서로 다른 미래를 세 벌이나 계약해 둔 거였다."
+    spacing: end_cliff
+final_image_direction: 한 컷짜리 엔드패널은 어두운 방 안, 노트북 빛만 얼굴을 비추는 구도로 마감

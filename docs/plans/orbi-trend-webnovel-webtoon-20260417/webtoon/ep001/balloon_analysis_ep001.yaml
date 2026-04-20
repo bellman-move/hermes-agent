@@ -1,0 +1,1567 @@
+episode: ep001
+analysis_version: v2
+source:
+  manifest: docs/plans/orbi-trend-webnovel-webtoon-20260417/webtoon/ep001/generated_fal_manifest_v3.json
+  lettering: docs/plans/orbi-trend-webnovel-webtoon-20260417/webtoon/ep001/lettering_script.yaml
+  scroll_plan: docs/plans/orbi-trend-webnovel-webtoon-20260417/webtoon/ep001/scroll_plan.yaml
+  default_input_dir: docs/plans/orbi-trend-webnovel-webtoon-20260417/webtoon/ep001/generated_fal_v3
+panels:
+- panel_id: p01
+  image_path: docs/plans/orbi-trend-webnovel-webtoon-20260417/webtoon/ep001/generated_fal_v3/p01.png
+  panel_mode: caption
+  overlay_tracks:
+  - caption
+  narrative_role: opening
+  shot: extreme_close_up
+  reading_order:
+  - p01_caption_01
+  safe_zones:
+  - id: chat_top_right
+    kind: chat_ui
+    x: 0.67
+    y: 0.08
+    w: 0.28
+    h: 0.14
+    confidence: 0.882
+    rationale: compact edge-aligned chat slot; busy=19.7; overlap=0.00
+    background_metrics:
+      mean_luma: 45.0
+      stddev_luma: 29.02
+      edge_mean: 6.21
+  - id: chat_top_left
+    kind: chat_ui
+    x: 0.05
+    y: 0.08
+    w: 0.28
+    h: 0.14
+    confidence: 0.869
+    rationale: compact edge-aligned chat slot; busy=21.4; overlap=0.00
+    background_metrics:
+      mean_luma: 43.71
+      stddev_luma: 36.03
+      edge_mean: 4.75
+  - id: speech_top_right
+    kind: speech
+    x: 0.61
+    y: 0.04
+    w: 0.34
+    h: 0.18
+    confidence: 0.848
+    rationale: top-right negative space; busy=19.0; overlap=0.00
+    background_metrics:
+      mean_luma: 42.85
+      stddev_luma: 27.29
+      edge_mean: 5.84
+  - id: caption_upper_mid
+    kind: caption
+    x: 0.28
+    y: 0.05
+    w: 0.44
+    h: 0.14
+    confidence: 0.838
+    rationale: score-sheet opener caption; busy=22.8; overlap=0.00
+    background_metrics:
+      mean_luma: 58.05
+      stddev_luma: 40.71
+      edge_mean: 5.53
+  - id: note_top_right
+    kind: screen_note
+    x: 0.6
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.812
+    rationale: screen note callout; busy=17.3; overlap=0.00
+    background_metrics:
+      mean_luma: 40.72
+      stddev_luma: 22.31
+      edge_mean: 5.63
+  - id: caption_top_right
+    kind: caption
+    x: 0.55
+    y: 0.05
+    w: 0.38
+    h: 0.14
+    confidence: 0.768
+    rationale: right caption shelf; busy=16.5; overlap=0.00
+    background_metrics:
+      mean_luma: 39.75
+      stddev_luma: 20.51
+      edge_mean: 5.25
+  - id: speech_top_left
+    kind: speech
+    x: 0.05
+    y: 0.04
+    w: 0.34
+    h: 0.18
+    confidence: 0.756
+    rationale: top-left negative space; busy=30.5; overlap=0.00
+    background_metrics:
+      mean_luma: 76.0
+      stddev_luma: 65.54
+      edge_mean: 5.32
+  - id: caption_top_left
+    kind: caption
+    x: 0.05
+    y: 0.05
+    w: 0.38
+    h: 0.14
+    confidence: 0.745
+    rationale: compact caption banner; busy=29.4; overlap=0.00
+    background_metrics:
+      mean_luma: 76.88
+      stddev_luma: 62.71
+      edge_mean: 5.31
+  - id: speech_upper_mid
+    kind: speech
+    x: 0.32
+    y: 0.05
+    w: 0.36
+    h: 0.17
+    confidence: 0.738
+    rationale: upper-mid negative space; busy=22.7; overlap=0.00
+    background_metrics:
+      mean_luma: 62.68
+      stddev_luma: 39.61
+      edge_mean: 6.58
+  - id: note_top_left
+    kind: screen_note
+    x: 0.07
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.724
+    rationale: screen note callout; busy=28.2; overlap=0.00
+    background_metrics:
+      mean_luma: 66.07
+      stddev_luma: 57.54
+      edge_mean: 5.37
+  - id: chat_mid_right
+    kind: chat_ui
+    x: 0.67
+    y: 0.26
+    w: 0.28
+    h: 0.14
+    confidence: 0.581
+    rationale: secondary chat slot; busy=34.9; overlap=0.00
+    background_metrics:
+      mean_luma: 101.2
+      stddev_luma: 53.64
+      edge_mean: 23.26
+  - id: caption_bottom_left
+    kind: caption
+    x: 0.05
+    y: 0.8
+    w: 0.42
+    h: 0.14
+    confidence: 0.513
+    rationale: bottom caption fallback; busy=33.4; overlap=0.00
+    background_metrics:
+      mean_luma: 128.14
+      stddev_luma: 67.98
+      edge_mean: 13.8
+  - id: speech_mid_left
+    kind: speech
+    x: 0.04
+    y: 0.24
+    w: 0.3
+    h: 0.17
+    confidence: 0.488
+    rationale: mid-left fallback; busy=34.1; overlap=0.00
+    background_metrics:
+      mean_luma: 183.74
+      stddev_luma: 62.4
+      edge_mean: 20.77
+  - id: speech_mid_right
+    kind: speech
+    x: 0.66
+    y: 0.24
+    w: 0.28
+    h: 0.17
+    confidence: 0.481
+    rationale: mid-right fallback; busy=34.9; overlap=0.00
+    background_metrics:
+      mean_luma: 105.91
+      stddev_luma: 53.79
+      edge_mean: 23.53
+  forbidden_zones:
+  - id: score_sheet
+    kind: key_prop
+    x: 0.18
+    y: 0.56
+    w: 0.58
+    h: 0.24
+    confidence: 0.9
+    source: panel_override
+  - id: writing_hand
+    kind: hand
+    x: 0.52
+    y: 0.62
+    w: 0.2
+    h: 0.18
+    confidence: 0.84
+    source: panel_override
+  speaker_points: []
+  speaker_anchors: []
+  speaker_local_zones: []
+  panel_overrides: {}
+  render_hints:
+    default_template: caption
+    item_templates:
+      p01_caption_01: caption
+    allow_tail: false
+    manual_review: false
+    manual_review_reasons: []
+    compactness: balanced
+    max_balloons: 1
+    forbidden_overlap_threshold: 0.08
+    item_overrides: {}
+    tail_policy: {}
+    tail_overrides: {}
+- panel_id: p02
+  image_path: docs/plans/orbi-trend-webnovel-webtoon-20260417/webtoon/ep001/generated_fal_v3/p02.png
+  panel_mode: dialogue
+  overlay_tracks:
+  - dialogue
+  narrative_role: pressure
+  shot: over_shoulder
+  reading_order:
+  - l01
+  safe_zones:
+  - id: chat_top_right
+    kind: chat_ui
+    x: 0.67
+    y: 0.08
+    w: 0.28
+    h: 0.14
+    confidence: 0.657
+    rationale: compact edge-aligned chat slot; busy=47.9; overlap=0.00
+    background_metrics:
+      mean_luma: 99.07
+      stddev_luma: 109.16
+      edge_mean: 11.39
+  - id: chat_top_left
+    kind: chat_ui
+    x: 0.05
+    y: 0.08
+    w: 0.28
+    h: 0.14
+    confidence: 0.649
+    rationale: compact edge-aligned chat slot; busy=48.8; overlap=0.00
+    background_metrics:
+      mean_luma: 121.48
+      stddev_luma: 93.58
+      edge_mean: 24.99
+  - id: speech_top_left
+    kind: speech
+    x: 0.05
+    y: 0.04
+    w: 0.34
+    h: 0.18
+    confidence: 0.644
+    rationale: top-left negative space; busy=44.5; overlap=0.00
+    background_metrics:
+      mean_luma: 154.23
+      stddev_luma: 96.59
+      edge_mean: 18.16
+  - id: caption_top_left
+    kind: caption
+    x: 0.05
+    y: 0.05
+    w: 0.38
+    h: 0.14
+    confidence: 0.634
+    rationale: compact caption banner; busy=43.3; overlap=0.00
+    background_metrics:
+      mean_luma: 164.26
+      stddev_luma: 97.7
+      edge_mean: 16.23
+  - id: speech_top_left_wide
+    kind: speech
+    x: 0.04
+    y: 0.03
+    w: 0.38
+    h: 0.2
+    confidence: 0.634
+    rationale: dialogue-first widened corner; busy=44.1; overlap=0.02
+    background_metrics:
+      mean_luma: 155.47
+      stddev_luma: 95.66
+      edge_mean: 18.17
+  - id: speech_top_right
+    kind: speech
+    x: 0.61
+    y: 0.04
+    w: 0.34
+    h: 0.18
+    confidence: 0.621
+    rationale: top-right negative space; busy=47.4; overlap=0.00
+    background_metrics:
+      mean_luma: 132.78
+      stddev_luma: 116.33
+      edge_mean: 8.93
+  - id: note_top_left
+    kind: screen_note
+    x: 0.07
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.584
+    rationale: screen note callout; busy=45.8; overlap=0.00
+    background_metrics:
+      mean_luma: 148.98
+      stddev_luma: 98.96
+      edge_mean: 18.53
+  - id: speech_upper_mid
+    kind: speech
+    x: 0.32
+    y: 0.05
+    w: 0.36
+    h: 0.17
+    confidence: 0.569
+    rationale: upper-mid negative space; busy=43.9; overlap=0.00
+    background_metrics:
+      mean_luma: 143.9
+      stddev_luma: 101.14
+      edge_mean: 13.22
+  - id: note_top_right
+    kind: screen_note
+    x: 0.6
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.562
+    rationale: screen note callout; busy=48.4; overlap=0.00
+    background_metrics:
+      mean_luma: 130.67
+      stddev_luma: 115.83
+      edge_mean: 10.98
+  - id: caption_bottom_left
+    kind: caption
+    x: 0.05
+    y: 0.8
+    w: 0.42
+    h: 0.14
+    confidence: 0.436
+    rationale: bottom caption fallback; busy=43.0; overlap=0.00
+    background_metrics:
+      mean_luma: 162.16
+      stddev_luma: 108.74
+      edge_mean: 8.5
+  - id: speech_mid_left
+    kind: speech
+    x: 0.04
+    y: 0.24
+    w: 0.3
+    h: 0.17
+    confidence: 0.15
+    rationale: mid-left fallback; busy=41.2; overlap=0.20
+    background_metrics:
+      mean_luma: 79.26
+      stddev_luma: 39.72
+      edge_mean: 41.49
+  forbidden_zones:
+  - id: focal_center
+    kind: focal_center
+    x: 0.28
+    y: 0.22
+    w: 0.44
+    h: 0.34
+    confidence: 0.78
+    source: composition_rule
+  - id: mother_face
+    kind: face
+    x: 0.62
+    y: 0.32
+    w: 0.16
+    h: 0.14
+    confidence: 0.88
+    source: panel_override
+  - id: son_head
+    kind: face
+    x: 0.24
+    y: 0.45
+    w: 0.22
+    h: 0.16
+    confidence: 0.74
+    source: panel_override
+  - id: desk_focus
+    kind: key_prop
+    x: 0.32
+    y: 0.58
+    w: 0.44
+    h: 0.22
+    confidence: 0.66
+    source: panel_override
+  speaker_points:
+  - speaker: mother
+    anchor_id: mother_mouth_primary
+    x: 0.7
+    y: 0.41
+    confidence: 0.9
+    source: panel_override
+  speaker_anchors:
+  - speaker: mother
+    anchor_id: mother_mouth_primary
+    role: mouth
+    x: 0.7
+    y: 0.41
+    confidence: 0.9
+    source: panel_override
+    priority: 100
+    preferred_tail_side: bottom
+  speaker_local_zones:
+  - id: p02_mother_upper_right
+    kind: speech
+    speaker: mother
+    item_id: l01
+    zone_ref: speech_top_right
+    x: 0.56
+    y: 0.04
+    w: 0.3
+    h: 0.19
+    placement_side: upper_right
+    priority: 100
+    confidence: 0.94
+    rationale: keep the mother's line in the clear space directly above her shoulder
+    source: panel_override
+  - id: p02_mother_upper_mid
+    kind: speech
+    speaker: mother
+    item_id: l01
+    zone_ref: speech_upper_mid
+    x: 0.43
+    y: 0.05
+    w: 0.29
+    h: 0.18
+    placement_side: upper_mid
+    priority: 84
+    confidence: 0.8
+    rationale: secondary shelf that still stays attached to mother
+    source: panel_override
+  panel_overrides:
+    placement_order_policy: hybrid_ranked
+    generic_speech_fallback_allowed: true
+    generic_fallback_margin: 8.0
+    attachment_review_threshold: 0.65
+  render_hints:
+    default_template: speech
+    item_templates:
+      l01: speech
+    allow_tail: true
+    manual_review: false
+    manual_review_reasons: []
+    compactness: balanced
+    max_balloons: 1
+    forbidden_overlap_threshold: 0.08
+    item_overrides:
+      l01:
+        preferred_zone_ids:
+        - p02_mother_upper_right
+        - speech_top_right
+        - speech_upper_mid
+        disallowed_zone_ids:
+        - speech_top_left
+        force_anchor_id: mother_mouth_primary
+        max_font_size: 29
+        min_font_size: 23
+        max_text_width: 170
+        box_horizontal_align: right
+        box_vertical_align: bottom
+        box_offset_x: -8
+        box_offset_y: 12
+        force_manual_review: false
+    tail_policy:
+      mode: edge_select
+      anchor_preference: speaker_facing_edge
+      min_clearance_from_forbidden: 0.03
+      max_cross_ratio: 0.02
+    tail_overrides: {}
+- panel_id: p03
+  image_path: docs/plans/orbi-trend-webnovel-webtoon-20260417/webtoon/ep001/generated_fal_v3/p03.png
+  panel_mode: screen_ui
+  overlay_tracks:
+  - caption
+  - screen_ui
+  narrative_role: reveal_setup
+  shot: insert_screen
+  reading_order:
+  - p03_caption_02
+  safe_zones:
+  - id: caption_top_band
+    kind: caption
+    x: 0.08
+    y: 0.01
+    w: 0.42
+    h: 0.11
+    confidence: 0.487
+    rationale: top border shelf above screen triptych; busy=33.3; overlap=0.18
+    background_metrics:
+      mean_luma: 133.95
+      stddev_luma: 66.45
+      edge_mean: 15.09
+  forbidden_zones:
+  - id: focal_center
+    kind: focal_center
+    x: 0.28
+    y: 0.22
+    w: 0.44
+    h: 0.34
+    confidence: 0.78
+    source: composition_rule
+  - id: screen_triptych
+    kind: screen_region
+    x: 0.06
+    y: 0.1
+    w: 0.88
+    h: 0.76
+    confidence: 0.95
+    source: panel_override
+  speaker_points: []
+  speaker_anchors: []
+  speaker_local_zones: []
+  panel_overrides: {}
+  render_hints:
+    default_template: caption
+    item_templates:
+      p03_caption_02: caption
+    allow_tail: false
+    manual_review: true
+    manual_review_reasons:
+    - insufficient_high_confidence_safe_zones
+    compactness: balanced
+    max_balloons: 1
+    forbidden_overlap_threshold: 0.08
+    item_overrides: {}
+    tail_policy: {}
+    tail_overrides: {}
+- panel_id: p04
+  image_path: docs/plans/orbi-trend-webnovel-webtoon-20260417/webtoon/ep001/generated_fal_v3/p04.png
+  panel_mode: chat_ui
+  overlay_tracks:
+  - chat_ui
+  - screen_ui
+  narrative_role: external_mask
+  shot: split_focus
+  reading_order:
+  - l02
+  safe_zones:
+  - id: chat_top_band
+    kind: chat_ui
+    x: 0.56
+    y: 0.01
+    w: 0.32
+    h: 0.11
+    confidence: 0.411
+    rationale: top border shelf above split-focus triptych; busy=42.7; overlap=0.18
+    background_metrics:
+      mean_luma: 106.52
+      stddev_luma: 76.46
+      edge_mean: 23.33
+  - id: chat_left_band
+    kind: chat_ui
+    x: 0.12
+    y: 0.01
+    w: 0.32
+    h: 0.11
+    confidence: 0.401
+    rationale: alternate top border shelf above split-focus triptych; busy=33.9; overlap=0.18
+    background_metrics:
+      mean_luma: 137.81
+      stddev_luma: 66.52
+      edge_mean: 16.6
+  forbidden_zones:
+  - id: focal_center
+    kind: focal_center
+    x: 0.28
+    y: 0.22
+    w: 0.44
+    h: 0.34
+    confidence: 0.78
+    source: composition_rule
+  - id: screen_triptych
+    kind: screen_region
+    x: 0.08
+    y: 0.1
+    w: 0.84
+    h: 0.76
+    confidence: 0.95
+    source: panel_override
+  speaker_points: []
+  speaker_anchors: []
+  speaker_local_zones: []
+  panel_overrides: {}
+  render_hints:
+    default_template: chat_ui
+    item_templates:
+      l02: chat_ui
+    allow_tail: false
+    manual_review: true
+    manual_review_reasons:
+    - insufficient_high_confidence_safe_zones
+    compactness: compact
+    max_balloons: 1
+    forbidden_overlap_threshold: 0.08
+    item_overrides: {}
+    tail_policy: {}
+    tail_overrides: {}
+- panel_id: p05
+  image_path: docs/plans/orbi-trend-webnovel-webtoon-20260417/webtoon/ep001/generated_fal_v3/p05.png
+  panel_mode: screen_ui
+  overlay_tracks:
+  - screen_ui
+  narrative_role: pre_cliff
+  shot: hand_closeup
+  reading_order: []
+  safe_zones:
+  - id: chat_top_right
+    kind: chat_ui
+    x: 0.67
+    y: 0.08
+    w: 0.28
+    h: 0.14
+    confidence: 0.754
+    rationale: compact edge-aligned chat slot; busy=35.8; overlap=0.00
+    background_metrics:
+      mean_luma: 69.67
+      stddev_luma: 41.22
+      edge_mean: 29.89
+  - id: speech_top_right
+    kind: speech
+    x: 0.61
+    y: 0.04
+    w: 0.34
+    h: 0.18
+    confidence: 0.735
+    rationale: top-right negative space; busy=33.1; overlap=0.00
+    background_metrics:
+      mean_luma: 73.1
+      stddev_luma: 43.16
+      edge_mean: 24.06
+  - id: chat_top_left
+    kind: chat_ui
+    x: 0.05
+    y: 0.08
+    w: 0.28
+    h: 0.14
+    confidence: 0.718
+    rationale: compact edge-aligned chat slot; busy=40.2; overlap=0.00
+    background_metrics:
+      mean_luma: 133.83
+      stddev_luma: 49.57
+      edge_mean: 38.45
+  - id: note_top_right
+    kind: screen_note
+    x: 0.6
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.716
+    rationale: screen note callout; busy=29.2; overlap=0.00
+    background_metrics:
+      mean_luma: 77.82
+      stddev_luma: 36.03
+      edge_mean: 21.97
+  - id: speech_upper_mid
+    kind: speech
+    x: 0.32
+    y: 0.05
+    w: 0.36
+    h: 0.17
+    confidence: 0.689
+    rationale: upper-mid negative space; busy=28.8; overlap=0.00
+    background_metrics:
+      mean_luma: 79.21
+      stddev_luma: 46.65
+      edge_mean: 14.68
+  - id: speech_top_left
+    kind: speech
+    x: 0.05
+    y: 0.04
+    w: 0.34
+    h: 0.18
+    confidence: 0.688
+    rationale: top-left negative space; busy=39.0; overlap=0.00
+    background_metrics:
+      mean_luma: 117.64
+      stddev_luma: 50.45
+      edge_mean: 34.27
+  - id: caption_top_left
+    kind: caption
+    x: 0.05
+    y: 0.05
+    w: 0.38
+    h: 0.14
+    confidence: 0.661
+    rationale: compact caption banner; busy=39.8; overlap=0.00
+    background_metrics:
+      mean_luma: 110.71
+      stddev_luma: 48.47
+      edge_mean: 36.35
+  - id: note_top_left
+    kind: screen_note
+    x: 0.07
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.655
+    rationale: screen note callout; busy=36.9; overlap=0.00
+    background_metrics:
+      mean_luma: 121.47
+      stddev_luma: 41.19
+      edge_mean: 36.6
+  - id: caption_bottom_left
+    kind: caption
+    x: 0.05
+    y: 0.8
+    w: 0.42
+    h: 0.14
+    confidence: 0.475
+    rationale: bottom caption fallback; busy=38.1; overlap=0.00
+    background_metrics:
+      mean_luma: 99.05
+      stddev_luma: 68.3
+      edge_mean: 19.48
+  forbidden_zones:
+  - id: focal_center
+    kind: focal_center
+    x: 0.28
+    y: 0.22
+    w: 0.44
+    h: 0.34
+    confidence: 0.78
+    source: composition_rule
+  - id: screen_region
+    kind: screen_region
+    x: 0.22
+    y: 0.28
+    w: 0.58
+    h: 0.38
+    confidence: 0.92
+    source: panel_override
+  - id: mouse_hand
+    kind: hand
+    x: 0.48
+    y: 0.48
+    w: 0.22
+    h: 0.18
+    confidence: 0.82
+    source: panel_override
+  speaker_points: []
+  speaker_anchors: []
+  speaker_local_zones: []
+  panel_overrides: {}
+  render_hints:
+    default_template: caption
+    item_templates: {}
+    allow_tail: false
+    manual_review: false
+    manual_review_reasons: []
+    compactness: balanced
+    max_balloons: 1
+    forbidden_overlap_threshold: 0.08
+    item_overrides: {}
+    tail_policy: {}
+    tail_overrides: {}
+- panel_id: p06
+  image_path: docs/plans/orbi-trend-webnovel-webtoon-20260417/webtoon/ep001/generated_fal_v3/p06.png
+  panel_mode: dialogue
+  overlay_tracks:
+  - dialogue
+  narrative_role: reveal
+  shot: doorway_reveal
+  reading_order:
+  - l03
+  safe_zones:
+  - id: chat_top_left
+    kind: chat_ui
+    x: 0.05
+    y: 0.08
+    w: 0.28
+    h: 0.14
+    confidence: 0.866
+    rationale: compact edge-aligned chat slot; busy=21.8; overlap=0.00
+    background_metrics:
+      mean_luma: 59.53
+      stddev_luma: 33.31
+      edge_mean: 8.49
+  - id: note_top_left
+    kind: screen_note
+    x: 0.07
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.845
+    rationale: screen note callout; busy=13.1; overlap=0.00
+    background_metrics:
+      mean_luma: 57.72
+      stddev_luma: 12.6
+      edge_mean: 5.77
+  - id: caption_top_left
+    kind: caption
+    x: 0.05
+    y: 0.05
+    w: 0.38
+    h: 0.14
+    confidence: 0.816
+    rationale: compact caption banner; busy=20.5; overlap=0.00
+    background_metrics:
+      mean_luma: 61.87
+      stddev_luma: 30.18
+      edge_mean: 8.4
+  - id: speech_top_left
+    kind: speech
+    x: 0.05
+    y: 0.04
+    w: 0.34
+    h: 0.18
+    confidence: 0.789
+    rationale: top-left negative space; busy=26.4; overlap=0.00
+    background_metrics:
+      mean_luma: 62.24
+      stddev_luma: 40.37
+      edge_mean: 12.7
+  - id: chat_top_right
+    kind: chat_ui
+    x: 0.67
+    y: 0.08
+    w: 0.28
+    h: 0.14
+    confidence: 0.739
+    rationale: compact edge-aligned chat slot; busy=37.6; overlap=0.00
+    background_metrics:
+      mean_luma: 132.94
+      stddev_luma: 78.9
+      edge_mean: 14.96
+  - id: speech_top_left_wide
+    kind: speech
+    x: 0.04
+    y: 0.03
+    w: 0.38
+    h: 0.2
+    confidence: 0.723
+    rationale: dialogue-first widened corner; busy=33.0; overlap=0.02
+    background_metrics:
+      mean_luma: 76.81
+      stddev_luma: 62.85
+      edge_mean: 11.64
+  - id: speech_upper_mid
+    kind: speech
+    x: 0.32
+    y: 0.05
+    w: 0.36
+    h: 0.17
+    confidence: 0.707
+    rationale: upper-mid negative space; busy=26.6; overlap=0.00
+    background_metrics:
+      mean_luma: 84.57
+      stddev_luma: 46.7
+      edge_mean: 11.14
+  - id: note_top_right
+    kind: screen_note
+    x: 0.6
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.681
+    rationale: screen note callout; busy=33.6; overlap=0.00
+    background_metrics:
+      mean_luma: 115.55
+      stddev_luma: 67.42
+      edge_mean: 13.44
+  - id: speech_top_right
+    kind: speech
+    x: 0.61
+    y: 0.04
+    w: 0.34
+    h: 0.18
+    confidence: 0.675
+    rationale: top-right negative space; busy=40.6; overlap=0.00
+    background_metrics:
+      mean_luma: 118.45
+      stddev_luma: 80.09
+      edge_mean: 18.32
+  - id: caption_bottom_left
+    kind: caption
+    x: 0.05
+    y: 0.8
+    w: 0.42
+    h: 0.14
+    confidence: 0.516
+    rationale: bottom caption fallback; busy=33.0; overlap=0.00
+    background_metrics:
+      mean_luma: 57.9
+      stddev_luma: 47.25
+      edge_mean: 19.84
+  - id: speech_mid_left
+    kind: speech
+    x: 0.04
+    y: 0.24
+    w: 0.3
+    h: 0.17
+    confidence: 0.15
+    rationale: mid-left fallback; busy=36.8; overlap=0.20
+    background_metrics:
+      mean_luma: 60.52
+      stddev_luma: 55.97
+      edge_mean: 21.54
+  forbidden_zones:
+  - id: focal_center
+    kind: focal_center
+    x: 0.28
+    y: 0.22
+    w: 0.44
+    h: 0.34
+    confidence: 0.78
+    source: composition_rule
+  - id: mother_face
+    kind: face
+    x: 0.64
+    y: 0.25
+    w: 0.16
+    h: 0.18
+    confidence: 0.9
+    source: panel_override
+  - id: son_face
+    kind: face
+    x: 0.2
+    y: 0.34
+    w: 0.18
+    h: 0.16
+    confidence: 0.86
+    source: panel_override
+  - id: laptop_glow
+    kind: screen_region
+    x: 0.66
+    y: 0.46
+    w: 0.22
+    h: 0.26
+    confidence: 0.8
+    source: panel_override
+  - id: typing_hands
+    kind: hand
+    x: 0.46
+    y: 0.58
+    w: 0.34
+    h: 0.16
+    confidence: 0.8
+    source: panel_override
+  speaker_points:
+  - speaker: mother
+    anchor_id: mother_mouth_primary
+    x: 0.71
+    y: 0.36
+    confidence: 0.92
+    source: panel_override
+  speaker_anchors:
+  - speaker: mother
+    anchor_id: mother_mouth_primary
+    role: mouth
+    x: 0.71
+    y: 0.36
+    confidence: 0.92
+    source: panel_override
+    priority: 100
+    preferred_tail_side: bottom
+  speaker_local_zones:
+  - id: p06_mother_upper_right
+    kind: speech
+    speaker: mother
+    item_id: l03
+    zone_ref: speech_top_right
+    x: 0.57
+    y: 0.04
+    w: 0.28
+    h: 0.17
+    placement_side: upper_right
+    priority: 100
+    confidence: 0.93
+    rationale: top-right pocket above the laptop keeps the accusation attached to
+      mother
+    source: panel_override
+  - id: p06_mother_upper_mid
+    kind: speech
+    speaker: mother
+    item_id: l03
+    zone_ref: speech_upper_mid
+    x: 0.43
+    y: 0.05
+    w: 0.26
+    h: 0.16
+    placement_side: upper_mid
+    priority: 80
+    confidence: 0.79
+    rationale: secondary shelf that keeps the tail out of the laptop glow
+    source: panel_override
+  panel_overrides:
+    placement_order_policy: hybrid_ranked
+    generic_speech_fallback_allowed: true
+    generic_fallback_margin: 8.0
+    attachment_review_threshold: 0.68
+  render_hints:
+    default_template: speech
+    item_templates:
+      l03: speech
+    allow_tail: true
+    manual_review: false
+    manual_review_reasons: []
+    compactness: balanced
+    max_balloons: 1
+    forbidden_overlap_threshold: 0.08
+    item_overrides:
+      l03:
+        preferred_zone_ids:
+        - p06_mother_upper_right
+        - speech_top_right
+        disallowed_zone_ids:
+        - speech_top_left
+        - caption_top_left
+        force_anchor_id: mother_mouth_primary
+        max_font_size: 30
+        min_font_size: 24
+        max_text_width: 150
+        box_horizontal_align: right
+        box_vertical_align: bottom
+        box_offset_x: -10
+        box_offset_y: 10
+        force_manual_review: false
+    tail_policy:
+      mode: edge_select
+      anchor_preference: speaker_facing_edge
+      min_clearance_from_forbidden: 0.03
+      max_cross_ratio: 0.015
+    tail_overrides:
+      l03:
+        speaker_anchor_id: mother_mouth_primary
+        bend_point: null
+- panel_id: p07
+  image_path: docs/plans/orbi-trend-webnovel-webtoon-20260417/webtoon/ep001/generated_fal_v3/p07.png
+  panel_mode: screen_ui
+  overlay_tracks:
+  - caption
+  - screen_ui
+  narrative_role: emotional_turn
+  shot: text_focus_prop
+  reading_order:
+  - p07_caption_03
+  - l04
+  safe_zones:
+  - id: note_top_center
+    kind: screen_note
+    x: 0.34
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.914
+    rationale: screen note above glow band; busy=12.7; overlap=0.02
+    background_metrics:
+      mean_luma: 145.25
+      stddev_luma: 25.71
+      edge_mean: 4.73
+  - id: note_top_left
+    kind: screen_note
+    x: 0.07
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.884
+    rationale: screen note callout; busy=8.2; overlap=0.00
+    background_metrics:
+      mean_luma: 136.87
+      stddev_luma: 13.11
+      edge_mean: 3.75
+  - id: caption_top_left
+    kind: caption
+    x: 0.05
+    y: 0.05
+    w: 0.38
+    h: 0.14
+    confidence: 0.857
+    rationale: compact caption banner; busy=15.4; overlap=0.00
+    background_metrics:
+      mean_luma: 136.72
+      stddev_luma: 29.89
+      edge_mean: 6.15
+  - id: chat_top_left
+    kind: chat_ui
+    x: 0.05
+    y: 0.08
+    w: 0.28
+    h: 0.14
+    confidence: 0.835
+    rationale: compact edge-aligned chat slot; busy=16.4; overlap=0.04
+    background_metrics:
+      mean_luma: 137.45
+      stddev_luma: 31.08
+      edge_mean: 7.32
+  - id: speech_top_left
+    kind: speech
+    x: 0.05
+    y: 0.04
+    w: 0.34
+    h: 0.18
+    confidence: 0.786
+    rationale: top-left negative space; busy=16.5; overlap=0.05
+    background_metrics:
+      mean_luma: 135.12
+      stddev_luma: 32.32
+      edge_mean: 6.4
+  - id: speech_upper_mid
+    kind: speech
+    x: 0.32
+    y: 0.05
+    w: 0.36
+    h: 0.17
+    confidence: 0.697
+    rationale: upper-mid negative space; busy=14.7; overlap=0.06
+    background_metrics:
+      mean_luma: 146.74
+      stddev_luma: 32.4
+      edge_mean: 4.13
+  - id: caption_top_right
+    kind: caption
+    x: 0.55
+    y: 0.05
+    w: 0.38
+    h: 0.14
+    confidence: 0.594
+    rationale: right caption shelf; busy=17.9; overlap=0.09
+    background_metrics:
+      mean_luma: 160.85
+      stddev_luma: 41.9
+      edge_mean: 5.21
+  - id: chat_top_right
+    kind: chat_ui
+    x: 0.67
+    y: 0.08
+    w: 0.28
+    h: 0.14
+    confidence: 0.53
+    rationale: compact edge-aligned chat slot; busy=25.8; overlap=0.17
+    background_metrics:
+      mean_luma: 183.48
+      stddev_luma: 57.42
+      edge_mean: 9.03
+  - id: speech_top_right
+    kind: speech
+    x: 0.61
+    y: 0.04
+    w: 0.34
+    h: 0.18
+    confidence: 0.525
+    rationale: top-right negative space; busy=24.1; overlap=0.16
+    background_metrics:
+      mean_luma: 171.92
+      stddev_luma: 56.95
+      edge_mean: 7.22
+  - id: note_top_right
+    kind: screen_note
+    x: 0.6
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.519
+    rationale: screen note callout; busy=19.6; overlap=0.15
+    background_metrics:
+      mean_luma: 172.4
+      stddev_luma: 46.2
+      edge_mean: 5.92
+  - id: caption_bottom_left
+    kind: caption
+    x: 0.05
+    y: 0.8
+    w: 0.42
+    h: 0.14
+    confidence: 0.48
+    rationale: bottom caption fallback; busy=37.5; overlap=0.00
+    background_metrics:
+      mean_luma: 73.67
+      stddev_luma: 54.57
+      edge_mean: 24.81
+  - id: chat_mid_right
+    kind: chat_ui
+    x: 0.67
+    y: 0.26
+    w: 0.28
+    h: 0.14
+    confidence: 0.323
+    rationale: secondary chat slot; busy=26.9; overlap=0.18
+    background_metrics:
+      mean_luma: 202.46
+      stddev_luma: 57.83
+      edge_mean: 9.06
+  - id: speech_mid_right
+    kind: speech
+    x: 0.66
+    y: 0.24
+    w: 0.28
+    h: 0.17
+    confidence: 0.171
+    rationale: mid-right fallback; busy=25.4; overlap=0.21
+    background_metrics:
+      mean_luma: 198.47
+      stddev_luma: 58.74
+      edge_mean: 6.12
+  - id: speech_mid_left
+    kind: speech
+    x: 0.04
+    y: 0.24
+    w: 0.3
+    h: 0.17
+    confidence: 0.164
+    rationale: mid-left fallback; busy=26.9; overlap=0.21
+    background_metrics:
+      mean_luma: 114.56
+      stddev_luma: 55.62
+      edge_mean: 8.58
+  forbidden_zones:
+  - id: focal_center
+    kind: focal_center
+    x: 0.28
+    y: 0.22
+    w: 0.44
+    h: 0.34
+    confidence: 0.78
+    source: composition_rule
+  - id: protagonist_face
+    kind: face
+    x: 0.25
+    y: 0.2
+    w: 0.2
+    h: 0.16
+    confidence: 0.86
+    source: panel_override
+  - id: mother_face
+    kind: face
+    x: 0.62
+    y: 0.16
+    w: 0.16
+    h: 0.16
+    confidence: 0.6
+    source: panel_override
+  - id: screen_glow_band
+    kind: screen_region
+    x: 0.04
+    y: 0.43
+    w: 0.92
+    h: 0.15
+    confidence: 0.94
+    source: panel_override
+  speaker_points: []
+  speaker_anchors: []
+  speaker_local_zones: []
+  panel_overrides: {}
+  render_hints:
+    default_template: caption
+    item_templates:
+      p07_caption_03: caption
+      l04: screen_note
+    allow_tail: false
+    manual_review: false
+    manual_review_reasons: []
+    compactness: balanced
+    max_balloons: 2
+    forbidden_overlap_threshold: 0.08
+    item_overrides: {}
+    tail_policy: {}
+    tail_overrides: {}
+- panel_id: p08
+  image_path: docs/plans/orbi-trend-webnovel-webtoon-20260417/webtoon/ep001/generated_fal_v3/p08.png
+  panel_mode: dialogue
+  overlay_tracks:
+  - caption
+  - dialogue
+  - chat_ui
+  - screen_ui
+  narrative_role: cliff
+  shot: final_cliffhanger
+  reading_order:
+  - p08_caption_04
+  - l06
+  - l05
+  safe_zones:
+  - id: note_top_left
+    kind: screen_note
+    x: 0.07
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.872
+    rationale: screen note callout; busy=9.8; overlap=0.00
+    background_metrics:
+      mean_luma: 35.67
+      stddev_luma: 5.3
+      edge_mean: 2.35
+  - id: note_top_right
+    kind: screen_note
+    x: 0.6
+    y: 0.06
+    w: 0.3
+    h: 0.14
+    confidence: 0.836
+    rationale: screen note callout; busy=14.3; overlap=0.00
+    background_metrics:
+      mean_luma: 30.93
+      stddev_luma: 11.91
+      edge_mean: 5.93
+  - id: chat_top_left
+    kind: chat_ui
+    x: 0.05
+    y: 0.08
+    w: 0.28
+    h: 0.14
+    confidence: 0.834
+    rationale: compact edge-aligned chat slot; busy=25.7; overlap=0.00
+    background_metrics:
+      mean_luma: 44.1
+      stddev_luma: 46.07
+      edge_mean: 6.13
+  - id: speech_upper_mid
+    kind: speech
+    x: 0.32
+    y: 0.05
+    w: 0.36
+    h: 0.17
+    confidence: 0.829
+    rationale: upper-mid negative space; busy=11.4; overlap=0.00
+    background_metrics:
+      mean_luma: 36.48
+      stddev_luma: 7.88
+      edge_mean: 3.77
+  - id: chat_top_right
+    kind: chat_ui
+    x: 0.67
+    y: 0.08
+    w: 0.28
+    h: 0.14
+    confidence: 0.817
+    rationale: compact edge-aligned chat slot; busy=27.8; overlap=0.00
+    background_metrics:
+      mean_luma: 37.17
+      stddev_luma: 45.12
+      edge_mean: 9.99
+  - id: speech_top_left
+    kind: speech
+    x: 0.05
+    y: 0.04
+    w: 0.34
+    h: 0.18
+    confidence: 0.812
+    rationale: top-left negative space; busy=23.5; overlap=0.00
+    background_metrics:
+      mean_luma: 43.44
+      stddev_luma: 41.69
+      edge_mean: 4.83
+  - id: caption_top_left
+    kind: caption
+    x: 0.05
+    y: 0.05
+    w: 0.38
+    h: 0.14
+    confidence: 0.803
+    rationale: compact caption banner; busy=22.2; overlap=0.00
+    background_metrics:
+      mean_luma: 43.22
+      stddev_luma: 39.21
+      edge_mean: 4.04
+  - id: speech_top_right
+    kind: speech
+    x: 0.61
+    y: 0.04
+    w: 0.34
+    h: 0.18
+    confidence: 0.799
+    rationale: top-right negative space; busy=25.2; overlap=0.00
+    background_metrics:
+      mean_luma: 37.95
+      stddev_luma: 40.67
+      edge_mean: 8.03
+  - id: caption_top_left_wide
+    kind: caption
+    x: 0.04
+    y: 0.05
+    w: 0.42
+    h: 0.14
+    confidence: 0.794
+    rationale: cliffhanger caption shelf; busy=25.7; overlap=0.00
+    background_metrics:
+      mean_luma: 48.41
+      stddev_luma: 50.35
+      edge_mean: 3.81
+  - id: caption_top_right
+    kind: caption
+    x: 0.55
+    y: 0.05
+    w: 0.38
+    h: 0.14
+    confidence: 0.787
+    rationale: right caption shelf; busy=14.2; overlap=0.00
+    background_metrics:
+      mean_luma: 31.41
+      stddev_luma: 11.75
+      edge_mean: 5.87
+  - id: speech_top_left_wide
+    kind: speech
+    x: 0.04
+    y: 0.03
+    w: 0.38
+    h: 0.2
+    confidence: 0.738
+    rationale: dialogue-first widened corner; busy=31.1; overlap=0.02
+    background_metrics:
+      mean_luma: 53.05
+      stddev_luma: 60.09
+      edge_mean: 7.82
+  - id: caption_bottom_left
+    kind: caption
+    x: 0.05
+    y: 0.8
+    w: 0.42
+    h: 0.14
+    confidence: 0.563
+    rationale: bottom caption fallback; busy=27.1; overlap=0.00
+    background_metrics:
+      mean_luma: 24.96
+      stddev_luma: 42.08
+      edge_mean: 9.49
+  forbidden_zones:
+  - id: focal_center
+    kind: focal_center
+    x: 0.28
+    y: 0.22
+    w: 0.44
+    h: 0.34
+    confidence: 0.78
+    source: composition_rule
+  - id: protagonist_face
+    kind: face
+    x: 0.16
+    y: 0.3
+    w: 0.22
+    h: 0.16
+    confidence: 0.88
+    source: panel_override
+  - id: mother_face
+    kind: face
+    x: 0.6
+    y: 0.26
+    w: 0.16
+    h: 0.16
+    confidence: 0.9
+    source: panel_override
+  - id: phone_glow
+    kind: screen_region
+    x: 0.54
+    y: 0.56
+    w: 0.18
+    h: 0.22
+    confidence: 0.94
+    source: panel_override
+  - id: laptop_glow
+    kind: screen_region
+    x: 0.38
+    y: 0.52
+    w: 0.22
+    h: 0.18
+    confidence: 0.82
+    source: panel_override
+  - id: typing_hands
+    kind: hand
+    x: 0.28
+    y: 0.58
+    w: 0.24
+    h: 0.14
+    confidence: 0.72
+    source: panel_override
+  speaker_points:
+  - speaker: mother
+    anchor_id: mother_mouth_primary
+    x: 0.67
+    y: 0.34
+    confidence: 0.94
+    source: panel_override
+  speaker_anchors:
+  - speaker: mother
+    anchor_id: mother_mouth_primary
+    role: mouth
+    x: 0.67
+    y: 0.34
+    confidence: 0.94
+    source: panel_override
+    priority: 100
+    preferred_tail_side: bottom
+  speaker_local_zones:
+  - id: p08_mother_upper_right
+    kind: speech
+    speaker: mother
+    item_id: l06
+    zone_ref: speech_top_right
+    x: 0.58
+    y: 0.02
+    w: 0.29
+    h: 0.19
+    placement_side: upper_right
+    priority: 100
+    confidence: 0.95
+    rationale: keep the mother's dialogue over her side without colliding with the
+      phone chat
+    source: panel_override
+  - id: p08_mother_upper_mid
+    kind: speech
+    speaker: mother
+    item_id: l06
+    zone_ref: speech_upper_mid
+    x: 0.31
+    y: 0.03
+    w: 0.38
+    h: 0.22
+    placement_side: upper_mid
+    priority: 82
+    confidence: 0.77
+    rationale: fallback shelf when the chat UI forces a tighter right edge
+    source: panel_override
+  panel_overrides:
+    placement_order_policy: hybrid_ranked
+    generic_speech_fallback_allowed: true
+    generic_fallback_margin: 8.0
+    attachment_review_threshold: 0.7
+  render_hints:
+    default_template: speech
+    item_templates:
+      p08_caption_04: caption
+      l06: speech
+      l05: chat_ui
+    allow_tail: true
+    manual_review: false
+    manual_review_reasons: []
+    compactness: balanced
+    max_balloons: 3
+    forbidden_overlap_threshold: 0.08
+    item_overrides:
+      l06:
+        preferred_zone_ids:
+        - p08_mother_upper_right
+        - speech_top_right
+        - speech_upper_mid
+        disallowed_zone_ids:
+        - speech_top_left
+        force_anchor_id: mother_mouth_primary
+        max_font_size: 22
+        min_font_size: 20
+        max_text_width: 132
+        max_text_height: 150
+        box_horizontal_align: right
+        box_vertical_align: top
+        box_offset_x: -8
+        box_offset_y: -6
+        force_manual_review: false
+    tail_policy:
+      mode: edge_select
+      anchor_preference: speaker_facing_edge
+      min_clearance_from_forbidden: 0.03
+      max_cross_ratio: 0.02
+    tail_overrides:
+      l06:
+        entry_edge: bottom
+        speaker_anchor_id: mother_mouth_primary
+        bend_point: null
